@@ -13,6 +13,8 @@
 		479A053521AF06DE0078EECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479A053421AF06DE0078EECE /* Assets.xcassets */; };
 		479A053821AF06DE0078EECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479A053621AF06DE0078EECE /* LaunchScreen.storyboard */; };
 		479A055F21AF0E7C0078EECE /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A055E21AF0E7C0078EECE /* BorderButton.swift */; };
+		479A056921AF3EBC0078EECE /* BahieVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A056821AF3EBC0078EECE /* BahieVC2.swift */; };
+		479A056B21AF41540078EECE /* BahieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A056A21AF41540078EECE /* BahieVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		479A053721AF06DE0078EECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		479A053921AF06DE0078EECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		479A055E21AF0E7C0078EECE /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		479A056821AF3EBC0078EECE /* BahieVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahieVC2.swift; sourceTree = "<group>"; };
+		479A056A21AF41540078EECE /* BahieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahieVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				479A053421AF06DE0078EECE /* Assets.xcassets */,
 				479A053621AF06DE0078EECE /* LaunchScreen.storyboard */,
 				479A053921AF06DE0078EECE /* Info.plist */,
+				479A056821AF3EBC0078EECE /* BahieVC2.swift */,
+				479A056A21AF41540078EECE /* BahieVC.swift */,
 			);
 			path = "app-swoosh";
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479A056921AF3EBC0078EECE /* BahieVC2.swift in Sources */,
 				479A053021AF06DD0078EECE /* ViewController.swift in Sources */,
+				479A056B21AF41540078EECE /* BahieVC.swift in Sources */,
 				479A052E21AF06DD0078EECE /* AppDelegate.swift in Sources */,
 				479A055F21AF0E7C0078EECE /* BorderButton.swift in Sources */,
 			);
