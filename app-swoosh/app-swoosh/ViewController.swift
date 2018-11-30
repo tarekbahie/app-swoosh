@@ -18,16 +18,7 @@ class ViewController: UIViewController {
         
         
     }
-
-    @IBAction func buttonWasPressed(_ sender: Any) {
-        performSegue(withIdentifier: "firstSeg", sender: self)
-        
-    }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "firstSeg"{
-            let bahieVC = segue.destination
-            
-        }
+    @IBAction func unwindFromTypeVC(unwindSegue : UIStoryboardSegue){
     }
     
 }
