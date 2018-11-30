@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "firstSeg"{
-            let bahieVC = segue.destination as! BahieVC
+            let bahieVC = segue.destination
             
         }
     }
